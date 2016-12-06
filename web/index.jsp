@@ -19,7 +19,7 @@
 <table class="tab">
 <tr>
   <td width="20px">data:</td>
-  <td><input class="dataInput" value="秦迪,德华,子龙,张力,俊先,李岩,建川,武林,武晖,刘鹏,家辉,苗泽,百胜,建建,成亚,国航,曲柯,温情" id="dataIpt"/></td>
+  <td><input class="dataInput" value="A,B,C,D,E,F,G,H,I,J,K,L,M,N" id="dataIpt"/></td>
   <td width="30px"><input type="button" class="addButton" value="+" id="addBtn"/> </td>
 </tr>
 </table>
