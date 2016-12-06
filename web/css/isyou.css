@@ -1,0 +1,130 @@
+body{
+    background-color: #CFD8DC;
+}
+#parent {
+    width: 600px;
+    height: 500px;
+    margin: 40px auto;
+    padding: 0px;
+    border: 0px solid #777;
+}
+#top {
+    width: 600px;
+    height: 50px;
+    border: 0px solid #777;
+    background-color: #ADFBF1;
+    text-align: center;
+}
+#left {
+    float:left;
+    width: 150px;
+    height: 450px;
+    padding: 0px;
+    border: 0px solid #777;
+    background-color: #ECEFF1;
+    text-align: left;
+    overflow:auto;
+}
+#right {
+    float:left;
+    width: 450px;
+    height: 450px;
+    background-color: #ECFAF1;
+}
+.tab {
+    height: 100%;
+    width: 100%;
+}
+.dataInput {
+    height: 35px;width: 100%;
+}
+.chekcboxAllDiv {
+    text-align: center;
+    word-break:keep-all;
+    white-space:nowrap;
+    background-color: #ECEFF1;
+}
+.chekcboxDiv {
+    word-break:keep-all;
+    white-space:nowrap;
+    text-align: left;
+}
+.selectBtn {
+    background-color: green;
+    height: 40px;width: 70px;
+}
+.endBtn {
+    background-color: red;
+}
+.addButton {
+    overflow: hidden;
+    padding: 0px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0s, 0s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    border: 1px solid;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    border-color: #3F51B5;
+}
+.addButton:hover {
+    background-color: orange;
+}
+.selectButton {
+    overflow: hidden;
+    padding: 0px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0s, 0s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    border: 1px solid;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    border-color: #3F51B5;
+}
+.selectButton:hover {
+    background-color: orange;
+}
+.showButton {
+    overflow: hidden;
+    padding: 0px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0s, 0s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    border: 1px solid;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    border-color: #3F51B5;
+}
+.showButton:hover {
+    background-color: green;
+}
+.controlButton {
+    overflow: hidden;
+    padding: 0px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0s, 0s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    border: 1px solid;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    border-color: #3F51B5;
+}
+.controlButton:hover {
+    background-color: red;
+}
+.spanstyle{
+    color:#fff000;
+    font-family:"Courier New";
+    font-size:18px;
+    font-weight:bold;
+    position:absolute;		/* ¾ø¶Ô¶¨Î» */
+    top:-50px;
+}
